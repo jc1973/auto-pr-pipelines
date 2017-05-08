@@ -4,6 +4,7 @@
         <git url="git@github.com:jc1973/fluffy-octo-computing-machine.git" shallowClone="true" />
       </materials>
       <stage name="defaultStage">
+      <blah>
         <jobs>
           <job name="defaultJob">
             <tasks>
@@ -12,6 +13,7 @@
                 <arg>&gt;</arg>
                 <arg>file.txt</arg>
               </exec>
+            </tasks>
             <artifacts>
               <test src="file.txt" dest="/home/go/" />
               <artifact src="file.txt" dest="/tmp/" />
