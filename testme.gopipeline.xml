@@ -12,7 +12,6 @@
                 <arg>&gt;</arg>
                 <arg>file.txt</arg>
               </exec>
-            </tasks>
             <artifacts>
               <test src="file.txt" dest="/home/go/" />
               <artifact src="file.txt" dest="/tmp/" />
